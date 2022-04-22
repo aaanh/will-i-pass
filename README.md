@@ -1,6 +1,12 @@
 # Will I Pass?
 
-An unfriendly, no bs grade calculator program/app/module/function/whatever for my (and your) unconfident and/or lazy a\*\*.
+## Introduction and Problem Statement
+
+Did you skip classes? Did you sleep during lectures? Did you completely forget that you even registered for that one course? Or did you spend every waking hour until now to do sigma male gacha grindset and simp hard af for your beloved parasocially-bound virtual waifus?
+
+Nevertheless, you only realize that you don't know whether you'll pass or not at the end of the semester and waste probably thousands of dollarydoos more into a degree you are so tired of.
+
+**Enter:** An unfriendly, no bs grade calculator program/app/module/function/whatever for my (and your) unconfident and/or lazy a\*\*.
 
 ## Usage
 
@@ -50,24 +56,24 @@ How-to:
 
 ### Python (CLI)
 
-- Install latest [Python](https://python.org)
-- That's it
+-   Install latest [Python](https://python.org)
+-   That's it
 
 ### Python (GUI)
 
-- Install latest [Python](https://python.org)
-- Install `pipenv`
-- `cd` to `will-i-pass/python-gui`
-- Activate virtualenv with `pipenv shell`
-- Start hacking
+-   Install latest [Python](https://python.org)
+-   Install `pipenv`
+-   `cd` to `will-i-pass/python-gui`
+-   Activate virtualenv with `pipenv shell`
+-   Start hacking
 
 ### Web App
 
-- Install [node](https://nodejs.org)
-- During installation, tick the box 'Install additional packages...'
-- `cd` to `will-i-pass/web-app`
-- Install dependencies with `npm i`
-- 行ってらっしゃい!
+-   Install [node](https://nodejs.org)
+-   During installation, tick the box 'Install additional packages...'
+-   `cd` to `will-i-pass/web-app`
+-   Install dependencies with `npm i`
+-   行ってらっしゃい!
 
 ## Contributions
 
