@@ -46,6 +46,29 @@ How-to:
 >
 > 草
 
+## Development
+
+### Python (CLI)
+
+- Install latest [Python](https://python.org)
+- That's it
+
+### Python (GUI)
+
+- Install latest [Python](https://python.org)
+- Install `pipenv`
+- `cd` to `will-i-pass/python-gui`
+- Activate virtualenv with `pipenv shell`
+- Start hacking
+
+### Web App
+
+- Install [node](https://nodejs.org)
+- During installation, tick the box 'Install additional packages...'
+- `cd` to `will-i-pass/web-app`
+- Install dependencies with `npm i`
+- 行ってらっしゃい!
+
 ## Contributions
 
 -   are welcomed.
