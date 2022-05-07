@@ -241,7 +241,7 @@ export default function Home() {
 				className="fixed bottom-4 right-4 text-8xl inline-flex items-center space-x-4"
 			>
 				<button
-					className="text-2xl rounded-full bg-slate-500 p-4"
+					className="text-2xl rounded-full bg-transparent border border-slate-500 dark:bg-slate-500 p-4"
 					onClick={() => setPass(!willPass)}
 				>
 					Debug: Result
