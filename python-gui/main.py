@@ -21,11 +21,19 @@ layout = [
     nav_btn_group
 ]
 
-window = psg.Window('Will I Pass?', layout)
+window = psg.Window('Will I Pass?', layout, size=(
+    conf.WIDTH, conf.HEIGHT), margins=(20, 20))
+
+
+def will_i_pass():
+    print("Nope")
+
 
 while True:
     event, values = window.read()
     if event == psg.WIN_CLOSED or event == 'Exit':
         break
+    if event == 'Calculate':
+        will_i_pass()
 
 window.close()
