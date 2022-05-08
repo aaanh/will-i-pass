@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Header from "../components/header";
+import Branding from "../components/Branding";
 
 const CompMapper = ({ db }) => {
 	console.table(db);
@@ -116,7 +116,7 @@ export default function Home() {
 
 	return (
 		<div className="font-['Be_Vietnam_Pro'] p-2 md:p-0 md:m-0 h-screen w-screen overflow-x-hidden md:py-8 md:px-8 bg-white text-slate-500 dark:bg-neutral-900 dark:text-white leading-8 flex flex-col align-center">
-			<Header></Header>
+			<Branding></Branding>
 			<div id="toggler" className="mt-8 flex-wrap flex justify-evenly space-x-2">
 				<h2 className="text-xl dark:text-pink-400">Toggle Competency Components:</h2>
 				<Toggler comp="Homework" handler={toggleHomework} isEnable={isHomework}></Toggler>
