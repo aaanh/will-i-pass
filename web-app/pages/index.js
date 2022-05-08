@@ -195,12 +195,7 @@ export default function Home() {
 					<h2 className="text-2xl">Pass/Fail Point</h2>
 					<label className="inline-flex items-center">
 						<input
-							className="mt-0
-              block
-              w-full
-              px-0.5
-              border-0 border-b-2 border-gray-200
-              focus:ring-0 focus:border-black dark:focus:border-sky-700 bg-transparent"
+							className="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black dark:focus:border-sky-700 bg-transparent"
 							type="text"
 							onChange={handlePassMark}
 							placeholder={60.0}
