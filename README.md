@@ -75,6 +75,19 @@ How-to:
 -   Install dependencies with `npm i`
 -   行ってらっしゃい!
 
+## Deployment
+
+- [ ] Circle CI
+- [ ] GitHub Actions
+- Containerize (Dockerfile):
+    - [ ] Python CLI
+    - [ ] Qt
+    - [x] Web App
+    - Native Desktop Application:
+        - [ ] Windows
+        - [ ] macOS
+        - [ ] Linux (targeting Ubuntu and Arch first)
+
 ## Contributions
 
 -   are welcomed.
