@@ -1,5 +1,7 @@
 # Will I Pass?
 
+> 'Tis a work in progress, but the dev demo is here <https://will-i-pass.aaanh.app> to check it out
+
 ## Introduction and Problem Statement
 
 Did you skip classes? Did you sleep during lectures? Did you completely forget that you even registered for that one course? Or did you spend every waking hour until now to do sigma male gacha grindset and simp hard af for your beloved parasocially-bound virtual waifus?
