@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Router from "next/router";
 
 const ThemeSwitcher = () => {
@@ -34,6 +34,12 @@ const ThemeSwitcher = () => {
 
 export default function Branding() {
 	const [showModal, setShowModal] = useState(false);
+
+	useEffect(() => {
+		document.documentElement.classList.add("dark");
+		localStorage.setItem("theme", "dark");
+	});
+
 	return (
 		<div id="logo" className="flex justify-between align-center items-center">
 			<div className="align-center">
