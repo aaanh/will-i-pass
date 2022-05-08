@@ -190,7 +190,7 @@ export default function Home() {
 				) : null}
 			</div>
 
-			<div className="fixed bottom-8 flex justify-evenly w-full flex-wrap md:space-y-0 space-y-2 items-center">
+			<div className="mt-12 flex justify-evenly w-full flex-wrap md:space-y-0 space-y-2 items-center">
 				<div id="cut-off" className="mt-12 ">
 					<h2 className="text-2xl">Pass/Fail Point</h2>
 					<label className="inline-flex items-center">
