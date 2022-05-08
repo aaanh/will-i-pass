@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
+import Router from "next/router";
 
 const ThemeSwitcher = () => {
 	return (
@@ -41,7 +42,13 @@ export default function Branding() {
 					by <Link href="https://github.com/aaanh">Anh Hoang Nguyen</Link>
 				</p>
 				<div className="flex justify-evenly space-x-2">
-					<button className="border-b border-transparent hover:border-b-sky-500">
+					<button
+						onClick={(e) => {
+							e.preventDefault();
+							Router.push("https://www.hoanganh.dev/");
+						}}
+						className="border-b border-transparent hover:border-b-sky-500"
+					>
 						Home
 					</button>
 					<button
